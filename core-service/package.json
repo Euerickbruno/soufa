@@ -1,0 +1,12 @@
+{
+  "name": "soufa-core-service",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js" },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
